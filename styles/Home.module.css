@@ -1,0 +1,75 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.pageTitle {
+  margin: 0 1rem 2rem 1rem;
+  line-height: 1.5;
+  font-size: 3rem;
+  color: #313131;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  text-align: center;
+  background: -webkit-linear-gradient(
+    to right,
+    #48dbfb,
+    #1dd1a1,
+    #00d2d3,
+    #54a0ff,
+    #5f27cd
+  );
+  background: linear-gradient(
+    to right,
+    #48dbfb,
+    #1dd1a1,
+    #00d2d3,
+    #54a0ff,
+    #5f27cd
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.storiesContainer {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.storiesContainer::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 5px;
+}
+.storiesContainer::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #54a0ff;
+}
+.storiesContainer::-webkit-scrollbar-track {
+  background-color: #f2f2f2;
+}
+
+.contentLoader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90vw;
+}
+@media (min-width: 1080px) {
+  .pageTitle {
+    font-size: 5rem;
+  }
+  .contentLoader {
+    width: 40vw;
+  }
+}

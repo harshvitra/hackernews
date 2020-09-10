@@ -1,0 +1,16 @@
+{
+  "name": "hackernews",
+  "short_name": "hackernews",
+  "description": "Hacker News App with Offline support",
+  "icons": [
+    {
+      "src": "hackernews.png",
+      "sizes": "400x400",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "display": "standalone"
+}

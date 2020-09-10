@@ -1,0 +1,85 @@
+.storyCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90vw;
+}
+
+.storyNumber {
+  font-size: 3rem;
+  color: #48dbfb;
+  opacity: 0.85;
+}
+.storyContent {
+  margin: 1rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 2px solid #d6d6d6;
+  border-radius: 10px;
+  transition: color 0.25s ease, border-color 0.25s ease;
+  background-color: white;
+  flex-grow: 1;
+}
+
+.storyContent:hover,
+.storyContent:focus,
+.storyContent:active {
+  border: 2px solid #54a0ff;
+}
+
+.storyTitle {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  color: #313131;
+  font-family: "Arial Black", Helvetica, sans-serif;
+}
+
+.storyFooter {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #313131;
+  opacity: 0.8;
+}
+.storyAuthor {
+  text-transform: capitalize;
+}
+.storyContent p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.storyDivider {
+  color: #313131;
+  opacity: 0.3;
+  margin: 2rem 1rem;
+  width: 90vw;
+}
+@media (min-width: 1080px) {
+  .storyCard {
+    width: 40vw;
+  }
+  .storyTitle {
+    font-size: 2rem;
+  }
+  .storyContent p {
+    font-size: 1.15rem;
+  }
+  .storyContent {
+    margin: 1rem;
+    padding: 2rem;
+  }
+  .storyNumber {
+    font-size: 6rem;
+  }
+  .storyDivider {
+    width: 40vw;
+  }
+}
