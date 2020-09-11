@@ -9,8 +9,6 @@ Hacker News Reader App - Read all the latest stories from the Hacker news API.
 
 <img src="./public/images/Cover.png" />
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=harshvitra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
 
 ## Development
 
