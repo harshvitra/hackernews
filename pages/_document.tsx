@@ -10,7 +10,6 @@ class MyDocument extends Document {
         return (
             <Html lang="en">
                 <Head>
-                    <link rel="shortcut icon" href="/logoTop.png" />
                     <link rel="icon" href="/favicon.ico" />
                     <link rel="manifest" href="/manifest.json" />
                     <meta name="description" content="Hacker News Stories Application" />
@@ -21,6 +20,8 @@ class MyDocument extends Document {
                     {/* Title and Viewport are in app 
                     https://github.com/vercel/next.js/blob/master/errors/no-document-title.md
                     https://github.com/vercel/next.js/blob/master/errors/no-document-viewport-meta.md */}
+                    <title>Hacker News Reader App</title>
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 </Head>
                 <body>
                     <Main />

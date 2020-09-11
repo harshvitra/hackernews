@@ -7,7 +7,6 @@ export interface StoryTypes {
 }
 export interface StoryProps {
   story: StoryTypes;
-  i: Number;
 }
 export interface HomeTypes {
   stories: Array<number>;

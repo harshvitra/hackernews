@@ -4,12 +4,6 @@
   align-items: center;
   width: 90vw;
 }
-
-.storyNumber {
-  font-size: 3rem;
-  color: #48dbfb;
-  opacity: 0.85;
-}
 .storyContent {
   margin: 1rem;
   margin-left: 1rem;
@@ -29,7 +23,10 @@
 .storyContent:active {
   border: 2px solid #54a0ff;
 }
-
+.storyContent:visited {
+  background-color: rgba(223, 237, 255, 0.2);
+  border: 0px solid white;
+}
 .storyTitle {
   margin: 0;
   line-height: 1.5;
