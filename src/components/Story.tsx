@@ -3,7 +3,6 @@ import React from "react";
 import timeSince from "../../src/utils/getDate";
 import { StoryProps } from "../common/types";
 
-
 export default function Story({ story }: StoryProps) {
     return (
         <>

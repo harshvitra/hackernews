@@ -1,10 +1,13 @@
 ## Hacker News Reader
 
-Hacker News Reader App - Read all the latest stories from the Hacker news API.
-
 <a href="https://hackernewsapp-lime.vercel.app/">
-    <img src="http://img.shields.io/badge/Demo-%23141619?style=for-the-badge&logo=next.js" />
+<img src="http://img.shields.io/badge/Demo-%23141619?style=for-the-badge&logo=next.js" />
 </a>
+<br/>
+Hacker News Reader App - Read all the latest stories from the Hacker news API.
+<br/>
+
+<img src="./public/images/Cover.png" />
 
 ## Development
 
@@ -36,16 +39,23 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 <details><summary>public</summary>
 <ul>
-    <li>Logos = Image files of logos and icons</li>
+    <li>Image files of logos and icons</li>
     <li>manifest.json file</li>
 </ul>
 </details>
 
 <details><summary>src</summary>
 <ul>
+    <li>__tests__ = All the test files</li>
     <li>common = Commonly used files </li>
     <li>components = Modules of the Project </li>
     <li>utils = Utility functions</li>
+</ul>
+</details>
+
+<details><summary>styles</summary>
+<ul>
+    <li>Styles for all the components</li>
 </ul>
 </details>
 
@@ -54,9 +64,27 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Features
 
 - Read latest stories from Hacker News
-- Infinite scrolling enabled
-- Know how much time ago the stories were added
+- Infinite scrolling with Content loaders
 - Mobile Responsive
-- Works offline too
-- PWA supported
-- Awesome score on Lighthouse
+- Testing using jest and enzyme
+<details><summary>PWA supported & Works offline too</summary>
+<div style="display:inline">
+    <img style="width:250px" src="./public/images/AddToHome.jpg" />   
+    <img style="width:250px" src="./public/images/Added.jpg" />
+</div>
+</details>
+<details><summary>Awesome score on Lighthouse</summary>
+<ul>
+    <img src="./public/images/LightHouse.png" />
+</ul>
+</details>
+<details><summary>Dark and Light mode</summary>
+<ul>
+    <img src="./public/images/LightDarkMode.png" />
+</ul>
+</details>
+<details><summary>Know how much time ago the stories were added</summary>
+<ul>
+    <img src="./public/images/Story.png" />
+</ul>
+</details>
