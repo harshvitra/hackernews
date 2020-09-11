@@ -2,7 +2,7 @@
 
 Hacker News Reader App - Read all the latest stories from the Hacker news API.
 
-<a href="">
+<a href="https://hackernewsapp-lime.vercel.app/">
     <img src="http://img.shields.io/badge/Demo-%23141619?style=for-the-badge&logo=next.js" />
 </a>
 
@@ -48,3 +48,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
     <li>utils = Utility functions</li>
 </ul>
 </details>
+
+---
+
+## Features
+
+- Read latest stories from Hacker News
+- Infinite scrolling enabled
+- Know how much time ago the stories were added
+- Mobile Responsive
+- Works offline too
+- PWA supported
+- Awesome score on Lighthouse

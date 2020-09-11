@@ -20,8 +20,7 @@ class MyDocument extends Document {
                     {/* Title and Viewport are in app 
                     https://github.com/vercel/next.js/blob/master/errors/no-document-title.md
                     https://github.com/vercel/next.js/blob/master/errors/no-document-viewport-meta.md */}
-                    <title>Hacker News Reader App</title>
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
                 </Head>
                 <body>
                     <Main />
