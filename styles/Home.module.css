@@ -7,7 +7,25 @@
   align-items: center;
   background-color: white;
 }
-
+.darkMode {
+  filter: invert(1) hue-rotate(0deg);
+}
+.themeButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-size: 1rem;
+  border: 0px;
+  padding: 0.6rem 1.8rem;
+  border-radius: 1.2rem;
+}
+.themeButton:focus {
+  outline: none;
+}
+.themeButton:hover {
+  cursor: pointer;
+}
 .pageTitle {
   margin: 0 1rem 2rem 1rem;
   line-height: 1.5;

@@ -9,7 +9,7 @@ export default function Home({ stories }: HomeTypes) {
   const [storiesCollection, setStoriesCollection] = React.useState<Array<any>>(stories)
   const [allStories, setAllStories] = React.useState<Array<StoryTypes>>([]);
   const [pageNumber, setPageNumber] = React.useState<number>(1);
-
+  const [isDarkMode, setIsDarkMode] = React.useState<Boolean>(false);
   React.useEffect(() => {
     async function getStories() {
       if (
@@ -59,7 +59,10 @@ export default function Home({ stories }: HomeTypes) {
   }
 
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} ${isDarkMode ? styles.darkMode : ''}`}>
+      <button className={styles.themeButton} onClick={() => setIsDarkMode(!isDarkMode)}>
+        {isDarkMode ? 'Light Mode' : 'Dark mode'}
+      </button>
       <div
         onScroll={handleScroll}
         className={styles.storiesContainer}>
