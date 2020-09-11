@@ -25,6 +25,48 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. The page auto-updates as you edit the file.
 
+### Run the tests
+
+```bash
+npm run test
+```
+
+Tests with Coverage
+
+```bash
+npm run test:coverage
+```
+
+---
+
+## Features
+
+- Read latest stories from Hacker News
+- Infinite scrolling with Content loaders
+- Mobile Responsive
+- Testing using jest and enzyme
+<details><summary>PWA supported & Works offline too</summary>
+<div style="display:inline">
+    <img style="width:250px" src="./public/images/AddToHome.jpg" />   
+    <img style="width:250px" src="./public/images/Added.jpg" />
+</div>
+</details>
+<details><summary>Awesome score on Lighthouse</summary>
+<ul>
+    <img src="./public/images/LightHouse.png" />
+</ul>
+</details>
+<details><summary>Dark and Light mode</summary>
+<ul>
+    <img src="./public/images/LightDarkMode.png" />
+</ul>
+</details>
+<details><summary>Know how much time ago the stories were added</summary>
+<ul>
+    <img src="./public/images/Story.png" />
+</ul>
+</details>
+
 ---
 
 ## Directory Structure
@@ -61,30 +103,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
-## Features
+## Dependencies
 
-- Read latest stories from Hacker News
-- Infinite scrolling with Content loaders
-- Mobile Responsive
-- Testing using jest and enzyme
-<details><summary>PWA supported & Works offline too</summary>
-<div style="display:inline">
-    <img style="width:250px" src="./public/images/AddToHome.jpg" />   
-    <img style="width:250px" src="./public/images/Added.jpg" />
-</div>
-</details>
-<details><summary>Awesome score on Lighthouse</summary>
-<ul>
-    <img src="./public/images/LightHouse.png" />
-</ul>
-</details>
-<details><summary>Dark and Light mode</summary>
-<ul>
-    <img src="./public/images/LightDarkMode.png" />
-</ul>
-</details>
-<details><summary>Know how much time ago the stories were added</summary>
-<ul>
-    <img src="./public/images/Story.png" />
-</ul>
-</details>
+- next-offline - Plugin needed to load the Service workers
+
+- cross-env - Needed for offline support script, can be done using .env files but project is supposed to be easy to install and run
